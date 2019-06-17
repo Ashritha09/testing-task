@@ -25,7 +25,7 @@ public class task {
      * @param args the command line arguments
      * @return 
      */
-    @SuppressWarnings("empty-statement")
+   // @SuppressWarnings("empty-statement")
     public static String main(String[] args) {
         
         // TODO code application logic here
@@ -33,13 +33,12 @@ public class task {
 
     /**
      *
-     * @return
+     * @param str ;
+     * @return;
      */
   
-
-       String test1(){
+String test1(String str){
            
-             String str="ABCD";
                 String str1;
                 if(str.charAt(0)=='A')
                 {
@@ -58,13 +57,13 @@ public class task {
         
     }
 
-    /**
+     /**
      *
+     * @param str
      * @return
      */
-    public String test2()
+public String test2(String str)
                 {    
-                      String str="AACD";
                 String str1;
                 if(str.charAt(0)=='A')
                 {
@@ -84,11 +83,11 @@ public class task {
 
     /**
      *
+     * @param str
      * @return
      */
-    public String test3()
+    public String test3(String str)
              {
-                String str="BACD";
                 String str1;
                 if(str.charAt(0)=='A')
                 {
@@ -105,9 +104,13 @@ public class task {
                 }
                 return str1;
                }
-   public String test4()
+     /**
+     *
+     * @param str
+     * @return
+     */
+   public String test4(String str)
             {    
-                String str="BBAA";
                 String str1;
                 if(str.charAt(0)=='A')
                 {
@@ -124,10 +127,14 @@ public class task {
                 }
                 return str1;
             }
-   public String test5()
+    /**
+     *
+     * @param str
+     * @return
+     */
+   public String test5(String str)
             {   
                 
-                 String str="AABAA";
                 String str1;
                 if(str.charAt(0)=='A')
                 {
@@ -148,6 +155,6 @@ public class task {
 
 }
 
+
                                      
-                                
-            
+                                          
